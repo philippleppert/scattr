@@ -1,0 +1,20 @@
+Package: scattr
+Type: Package
+Version: 0.1.0
+Title: Making Scatterplots with the Shiny Application ScattR 
+Author: Leppert, Philipp
+Maintainer: Leppert, Philipp <philipp.leppert@destatis.de>
+Description: The shiny application ScattR offers an environment and workflow to get the most out of a scatter plot.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.0.1),
+         tidyverse,
+         shiny
+Imports: shiny,
+         tidyverse,
+         scales,
+         haven,
+         DT
+
+
